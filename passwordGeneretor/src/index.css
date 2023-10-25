@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 30%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.heading {
+  font-family: monospace;
+  font-weight: 800;
+  margin: 1rem;
+  text-align: center;
+}
+.inputField {
+  display: flex;
+  justify-content: center;
+}
+.inputField > .btn {
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 25%;
+  font-family: monospace;
+  border: none;
+  color: white;
+  background-color: rgb(39, 39, 214);
+  padding: 0.6rem;
+}
+.inputField > .inp1 {
+  border-radius: 1rem;
+  box-shadow: 0 0 0 5px white;
+  padding: 10px 15px;
+  font-family: monospace;
+  font-weight: 800;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(87, 87, 197);
+  color: antiquewhite;
+}
+.option {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 2rem auto;
+}
+label {
+  font-family: monospace;
+  font-weight: 800;
+}
+#inp2,
+#inp3:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .main {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+}
+.main > div {
+  width: 22%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+}
+.main > div:hover {
+  cursor: pointer;
+  color: rgb(180, 52, 199);
+  transition: all 1s ease-in-out;
+}

@@ -1,0 +1,96 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(74, 153, 248);
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  padding: 0 0.8rem;
+  width: 98%;
+}
+.navContainer > ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.navContainer > ul > li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.SearchIcon {
+  font-size: 1.3rem;
+}
+.SearchIcon:hover {
+  cursor: pointer;
+}
+.navLogo:hover {
+  cursor: pointer;
+}
+.navContainer > ul > li:hover {
+  cursor: pointer;
+}
+.inputSearch {
+  display: flex;
+  background-color: white;
+  color: rgb(74, 153, 248);
+  width: 70%;
+  border-radius: 6px;
+  padding: 0.1rem;
+  display: none;
+}
+
+.SearchBar {
+  margin: 0.4rem 0.4rem;
+}
+.inputBar {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 768px) {
+  .navContainer {
+    width: 100%;
+  }
+  .navContainer > ul {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navContainer {
+    width: 100%;
+  }
+  .navContainer > ul {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navContainer {
+    width: 100%;
+  }
+  .navContainer > ul {
+    display: none;
+  }
+  .SearchIcon {
+    display: none;
+  }
+  .inputSearch {
+    display: block;
+    display: flex;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  .inputSearch {
+    display: block;
+    display: flex;
+    width: 50%;
+  }
+  .inputBar {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    width: 50%;
+  }
+}
